@@ -135,4 +135,4 @@ Currently, the application runs on a prototype authentication system utilizing s
 *(Note: Real Supabase Auth integration is planned for the next development phase).*
 
 ## License
-© 2026 Kisan Setu • Smart Agriculture Procurement Platform. All rights reserv
+© 2026 Kisan Setu • Smart Agriculture Procurement Platform. All rights reserved.
