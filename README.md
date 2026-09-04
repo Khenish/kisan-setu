@@ -91,3 +91,52 @@ kisan-setu/
 ├── index.html             # Main HTML template
 ├── package.json           # Dependencies and scripts
 └── vite.config.js         # Vite configuration
+```
+🚀 Getting Started
+Follow these instructions to set up the project locally on your machine.
+
+Prerequisites
+Node.js (v18 or higher recommended)
+
+A Supabase account and project.
+
+1. Clone the repository
+Bash
+git clone [https://github.com/your-username/kisan-setu.git](https://github.com/your-username/kisan-setu.git)
+cd kisan-setu
+2. Install Dependencies
+Bash
+npm install
+3. Configure Environment Variables
+Create a .env file in the root directory of the project and add your Supabase credentials:
+
+Code snippet
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
+4. Start the Development Server
+Bash
+npm run dev
+Open your browser and navigate to http://localhost:5173 to see the application running.
+
+📜 Available Scripts
+npm run dev - Starts the Vite development server.
+
+npm run build - Bundles the app into static files for production.
+
+npm run preview - Previews the production build locally.
+
+npm run lint - Runs Oxlint to catch potential code issues.
+
+🔐 Authentication (Prototype Phase)
+Currently, the application runs on a prototype authentication system utilizing sessionStorage.
+
+Mock OTP: 123456
+
+Admin Demo ID: ADMIN001
+
+Admin Demo Password: admin123
+
+(Note: Real Supabase Auth integration is planned for the next development phase).
+
+📄 License
+© 2026 Kisan Setu • Smart Agriculture Procurement Platform. All rights reserved.
